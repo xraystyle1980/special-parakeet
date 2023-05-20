@@ -1,0 +1,28 @@
+.treasury {
+  height: 24px;
+  width: 24px;
+}
+
+.treasury .overlap-group {
+  height: 20px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 20px;
+}
+
+.treasury .subtract {
+  height: 11px;
+  left: 2px;
+  position: absolute;
+  top: 8px;
+  width: 18px;
+}
+
+.treasury .vector {
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
