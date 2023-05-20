@@ -1,0 +1,1 @@
+export { FaviconYellow } from "./FaviconYellow";

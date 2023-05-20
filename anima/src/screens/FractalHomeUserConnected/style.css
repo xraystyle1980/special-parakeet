@@ -1,0 +1,389 @@
+.fractal-home-user-connected {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.fractal-home-user-connected .overlap-wrapper {
+  background: linear-gradient(180deg, rgb(39, 37, 32) 0%, rgb(27, 26, 24) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px none;
+  height: 900px;
+  width: 1440px;
+}
+
+.fractal-home-user-connected .overlap {
+  height: 900px;
+  position: relative;
+}
+
+.fractal-home-user-connected .radial-BG-glow {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(250, 188.8, 46, 0.24) 0%, rgba(250, 188.8, 46, 0) 100%);
+  height: 900px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1099px;
+}
+
+.fractal-home-user-connected .body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 562px;
+  position: absolute;
+  top: 319px;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .logotype {
+  height: 38px;
+  min-width: 187.08px;
+  position: relative;
+}
+
+.fractal-home-user-connected .title-and-CTA {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .text-wrapper {
+  color: #eae9e5;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .buttons {
+  align-items: center;
+  background-color: #fabc2e;
+  border-radius: 4px;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  padding: 16px 48px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .button {
+  color: #1e1d1a;
+  font-family: "IBM Plex Mono-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .links {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .text-link-buttons {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .div {
+  color: #fabc2e;
+  font-family: "IBM Plex Mono-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.64px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .fractal-home-user-connected-sidebar {
+  background-color: #171614;
+  height: 900px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+.fractal-home-user-connected .utility-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 0;
+  position: absolute;
+  top: 692px;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .divider {
+  height: 1px;
+  min-width: 68px;
+  object-fit: cover;
+  position: relative;
+}
+
+.fractal-home-user-connected .buttons-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 14px;
+  position: absolute;
+  top: 195px;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .top-nav {
+  align-items: center;
+  background-color: #171614;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  left: 68px;
+  padding: 16px 24px;
+  position: absolute;
+  top: 0;
+  width: 1372px;
+}
+
+.fractal-home-user-connected .search-navigation {
+  align-items: center;
+  background-color: #2b2b2b;
+  border: 1px solid;
+  border-color: #484848;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  justify-content: flex-end;
+  margin-bottom: -4px;
+  margin-top: -4px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .text-field-md {
+  height: 48px;
+  margin-bottom: -4px;
+  margin-top: -4px;
+  min-width: 498px;
+  position: relative;
+}
+
+.fractal-home-user-connected .text-field-elements-md {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+  width: 498px;
+}
+
+.fractal-home-user-connected .icons-and-text {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.fractal-home-user-connected .icon-prefix-and-text {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .placeholder {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .icon-search {
+  height: 24px;
+  min-width: 24px;
+  position: relative;
+}
+
+.fractal-home-user-connected .p {
+  color: #a6a39d;
+  font-family: "IBM Plex Mono-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .suffix-and-icon {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .suffix {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .favorites-wallet {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  margin-bottom: -8px;
+  margin-top: -8px;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .arrow-down-medium {
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.fractal-home-user-connected .union {
+  height: 13px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 13px;
+}
+
+.fractal-home-user-connected .button-2 {
+  color: #fabc2e;
+  font-family: "IBM Plex Mono-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .wallet-dropdown-button {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  height: 48px;
+  justify-content: flex-end;
+  position: relative;
+  width: fit-content;
+}
+
+.fractal-home-user-connected .jazzy-avatar {
+  background-color: #f5411d;
+  border-radius: 23.5px;
+  height: 24px;
+  min-width: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fractal-home-user-connected .rectangle {
+  background-color: #f2c02c;
+  height: 26px;
+  left: 8px;
+  position: absolute;
+  top: -16px;
+  transform: rotate(-32.2deg);
+  width: 33px;
+}
+
+.fractal-home-user-connected .rectangle-2 {
+  background-color: #0a4f5c;
+  height: 26px;
+  left: -5px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-4.84deg);
+  width: 33px;
+}
+
+.fractal-home-user-connected .rectangle-3 {
+  background-color: #c51a4e;
+  height: 26px;
+  left: -31px;
+  position: absolute;
+  top: -8px;
+  transform: rotate(-5.91deg);
+  width: 33px;
+}
+
+.fractal-home-user-connected .address-and-arrow {
+  height: 24px;
+  margin-right: -2px;
+  min-width: 121px;
+  position: relative;
+}
+
+.fractal-home-user-connected .text-wrapper-2 {
+  color: #eae9e5;
+  font-family: "IBM Plex Mono-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  height: 18px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: right;
+  top: 3px;
+  white-space: nowrap;
+}
+
+.fractal-home-user-connected .img {
+  height: 24px;
+  left: 95px;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}

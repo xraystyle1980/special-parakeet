@@ -1,0 +1,52 @@
+.sidebar {
+  background-color: #171614;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sidebar .div {
+  background-color: #171614;
+  border: 1px none;
+  height: 900px;
+  position: relative;
+  width: 68px;
+}
+
+.sidebar .utility-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 0;
+  position: absolute;
+  top: 692px;
+  width: fit-content;
+}
+
+.sidebar .divider {
+  height: 1px;
+  margin-top: -1px;
+  min-width: 68px;
+  object-fit: cover;
+  position: relative;
+}
+
+.sidebar .img {
+  height: 1px;
+  min-width: 68px;
+  object-fit: cover;
+  position: relative;
+}
+
+.sidebar .buttons {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 14px;
+  position: absolute;
+  top: 195px;
+  width: fit-content;
+}
